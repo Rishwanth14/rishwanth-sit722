@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  LOCATION: eastasia
+  LOCATION: australiaeast
   ACR_LOGIN_SERVER: ${{ secrets.AZURE_CONTAINER_REGISTRY }}
   IMAGE_TAG: latest
 
