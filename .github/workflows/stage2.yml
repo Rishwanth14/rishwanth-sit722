@@ -10,8 +10,8 @@ env:
   LOCATION: australiaeast
   ACR_LOGIN_SERVER: ${{ secrets.AZURE_CONTAINER_REGISTRY }}
   IMAGE_TAG: latest
-  STAGING_RG: week10-staging-rg-rish
-  STAGING_PLAN: week10-staging-plan-rish   # Reuse one plan
+  STAGING_RG: rsit722-week10-rg
+  STAGING_PLAN: sit722-prod-plan-rish
 
 jobs:
   staging:
